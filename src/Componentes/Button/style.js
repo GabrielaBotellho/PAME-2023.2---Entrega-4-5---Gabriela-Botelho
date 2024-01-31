@@ -14,13 +14,13 @@ export const ButtonDiv = styled.button`
     border-color: #F5DEB3;
     font-size: 20px;
     margin-top : 40px;
-    gap: 10px;
+    margin-right:20px;
     min-width: 75px;
     min-height: 25px; 
 
      
 span{
-    color: black;
+    color: #F5DEB3;
 
 }
 

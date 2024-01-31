@@ -11,6 +11,7 @@ export const HeaderDiv = styled.div`
     justify-content: space-between;
     min-height: 90px;
     min-width:530px;
+
         
         h1{
             display: flex;

@@ -1,13 +1,15 @@
 
 import './App.css';
 import Login from './Pages/Login';
+import Rotas from './Rotas';
 import { GlobalStyle } from './style';
 
 function App() {
   return (
     <div> 
-    <GlobalStyle></GlobalStyle>
-    <Login></Login>
+      <Rotas></Rotas>
+      <GlobalStyle></GlobalStyle>
+      
       
        </div>
   );
