@@ -16,6 +16,8 @@ function Home() {
           <img id = "FotoFundoHome" src={fotoFundoHome} alt=''></img>
         </Body>
 
+        
+
     </Pages>
   )
 }

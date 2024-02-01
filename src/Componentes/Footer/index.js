@@ -7,6 +7,8 @@ function Footer() {
     <div>
         <FooterDiv>
             <h1> Contato dos fornecedores: </h1>
+            
+            
         
         </FooterDiv>
 

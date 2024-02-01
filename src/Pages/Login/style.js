@@ -7,6 +7,7 @@ export const Pages = styled.div`
     height: 100vh;
     flex-direction: column;
     background-color: #F5DEB3;
+    min-height: 550px;
 
 `
 
@@ -20,6 +21,7 @@ export const Body = styled.div`
     align-items: center;
     flex-direction: column;
     background-color: #F5DEB3;
+    
 
 
 `
@@ -42,11 +44,16 @@ export const Container = styled.div`
 `
 export const LoginButton = styled.button `
     width: 15vw;
-    height: 4vh;
+    height: 8vh;
+    min-height: 7vh;
+
     margin-top: 30px;
     cursor: pointer;
     font-size: 18px;
+    font-color: #8B4513;
     border-radius: 10px;
+    background-color: #F5DEB3;
+    
 `
 
 

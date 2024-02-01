@@ -32,12 +32,17 @@ export const ContainerEstoque = styled.div`
     flex-direction: column;
     
     min-height: 290px;
+    min-width: 470px;
+    
+    
     
 
-    //customizar o login
+    //customizar o quantidade em estoque
     h1{
         color: #8B4513;
     }
+
+    
 
     
   `  

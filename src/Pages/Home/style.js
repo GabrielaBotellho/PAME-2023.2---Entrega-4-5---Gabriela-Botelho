@@ -23,14 +23,13 @@ export const Body = styled.div`
         
         img{
             width:100vw;
-            height: 87vh;
+            height: 80vh;
 
         }
-
-
-    
 `
+//customizar o rodape da home:
 
-//customizar o rodape do site:
+
+
 
 

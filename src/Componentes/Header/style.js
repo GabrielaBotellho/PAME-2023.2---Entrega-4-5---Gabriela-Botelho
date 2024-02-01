@@ -5,19 +5,29 @@ import styled from "styled-components";
 export const HeaderDiv = styled.div`
     width: 100vw;
     height: 15vh;
+    
+    min-height: 90px;
     background-color: #8B4513;
     color: #F5DEB3;
     display: flex;
     margin-top: 0;
     justify-content: space-between;
-    min-height: 90px;
-    min-width:560px;
+    
 
         
         h1{
             display: flex;
             align-items: center;
             margin-left: 30px;
+            min-width: 305px;
+
+            img{
+                width:8vw;
+                height:10vh;
+                margin-left: 10px;
+                min-height:60px;
+                
+            }
 
 
         }
