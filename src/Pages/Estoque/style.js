@@ -34,10 +34,16 @@ export const ContainerEstoque = styled.div`
     min-height: 290px;
     min-width: 470px;
     
+    //Customizar o nome do produto:
+    .Produto{
+        font-size: 20px;
+        color: #8B4513;
+
+        }
     
     
 
-    //customizar o quantidade em estoque
+    //customizar o termo 'quantidade em estoque'
     h1{
         color: #8B4513;
     }

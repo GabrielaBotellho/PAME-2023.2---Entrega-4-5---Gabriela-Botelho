@@ -1,6 +1,5 @@
 
 import './App.css';
-import Login from './Pages/Login';
 import Rotas from './Rotas';
 import { GlobalStyle } from './style';
 

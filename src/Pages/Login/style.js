@@ -32,7 +32,7 @@ export const Container = styled.div`
     height: 80%;
     align-items: center;
     flex-direction: column;
-    
+    gap: 3px;
     min-height: 290px;
     
 

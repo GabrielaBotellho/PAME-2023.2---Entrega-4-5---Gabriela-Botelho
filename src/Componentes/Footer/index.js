@@ -6,9 +6,7 @@ function Footer() {
   return (
     <div>
         <FooterDiv>
-            <h1> Contato dos fornecedores: </h1>
-            
-            
+        
         
         </FooterDiv>
 

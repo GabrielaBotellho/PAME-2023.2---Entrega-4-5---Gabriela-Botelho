@@ -27,7 +27,7 @@ export const Body = styled.div`
 
         }
 `
-//customizar o rodape da home:
+
 
 
 

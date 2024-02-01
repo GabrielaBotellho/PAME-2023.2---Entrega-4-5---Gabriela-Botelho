@@ -15,8 +15,10 @@ function Login() {
         <Body>
           <Container>
             <h1> Login </h1>
-
+            <p>Digite seu email:</p>
             <Input>Email:</Input>
+            <p></p>
+            <p>Digite sua senha:</p>
             <Input>Senha:</Input>
             <LoginButton>Logar</LoginButton>
 

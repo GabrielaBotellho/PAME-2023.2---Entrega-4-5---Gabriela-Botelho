@@ -5,6 +5,7 @@ import { Body, Pages } from './style'
 
 
 import fotoFundoHome from '../../Imagens/fotoFundoHome.jpg'
+import Footer from '../../Componentes/Footer'
 
 
 function Home() {
@@ -15,6 +16,8 @@ function Home() {
         <Body>
           <img id = "FotoFundoHome" src={fotoFundoHome} alt=''></img>
         </Body>
+
+        <Footer></Footer>
 
         
 
