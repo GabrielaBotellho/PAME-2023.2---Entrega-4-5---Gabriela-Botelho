@@ -1,14 +1,15 @@
 import React from 'react'
 
 //importacoes das paginas usadas
-import { Body, Container, Footer, LoginButton, Pages } from './style'
+import { Body, Container, LoginButton, Pages } from './style'
 import Header from '../../Componentes/Header'
 import Input from '../../Componentes/Input'
+import Footer from '../../Componentes/Footer'
 
 
 function Login() {
   return (
-    // Pages é a div maior que contemplat toda a pagina de login
+    // Pages é a div maior que contempla toda a pagina de login
     <Pages>
         <Header></Header>
         <Body>
@@ -21,11 +22,9 @@ function Login() {
 
           </Container>
         </Body>
-        <Footer>
-          <h1> Contato dos fornecedores: </h1>
-          
-          
-        </Footer>
+        <Footer></Footer>
+      
+
         
     </Pages>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderDiv } from './style'
+import { HeaderDiv, StyledLink } from './style'
 import Button from '../Button'
 
 
@@ -10,9 +10,22 @@ function Header() {
         <HeaderDiv>
             <h1> Pudins do Jaime </h1>
 
-            <Button text='Login' ></Button>
-            <Button text='Estoque' ></Button>
-            <Button text='Pedidos' ></Button>
+            <StyledLink to = '/Login'>
+              <Button text='Login' ></Button>
+            </StyledLink>
+
+            <StyledLink to = '/Estoque'>
+              <Button text='Estoque' ></Button>
+            </StyledLink>
+
+            <StyledLink to = '/Pedidos' >
+              <Button text='Pedidos' ></Button>
+            </StyledLink>
+
+            
+            
+
+            
             
             
         </HeaderDiv>

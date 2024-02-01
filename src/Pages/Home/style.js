@@ -9,7 +9,6 @@ export const Pages = styled.div`
     background-color: #F5DEB3;
 
 `
-
 //Customizar meio do site:
 export const Body = styled.div`
 
@@ -21,33 +20,17 @@ export const Body = styled.div`
     flex-direction: column;
     background-color: #F5DEB3;
 
+        
+        img{
+            width:100vw;
+            height: 87vh;
 
-`
-//customizar caixa de login:   
-export const Container = styled.div`
-    display: flex;
-    width: 45%;
-    height: 80%;
-    align-items: center;
-    flex-direction: column;
+        }
+
+
     
-    min-height: 290px;
-    
-
-    //customizar o login
-    h1{
-        color: #8B4513;
-    }
-
-`
-export const LoginButton = styled.button `
-    width: 15vw;
-    height: 4vh;
-    margin-top: 30px;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 10px;
 `
 
+//customizar o rodape do site:
 
 

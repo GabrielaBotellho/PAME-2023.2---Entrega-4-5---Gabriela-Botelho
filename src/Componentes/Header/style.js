@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 // div principal do header
@@ -10,7 +11,7 @@ export const HeaderDiv = styled.div`
     margin-top: 0;
     justify-content: space-between;
     min-height: 90px;
-    min-width:530px;
+    min-width:560px;
 
         
         h1{
@@ -25,4 +26,9 @@ export const HeaderDiv = styled.div`
 
 export const ButtonDiv = styled.div`
 
+`
+
+//Aplicacao que permite associar o link do site a um botao:
+export const StyledLink = styled(Link)`
+        text-decoration: none;
 `
