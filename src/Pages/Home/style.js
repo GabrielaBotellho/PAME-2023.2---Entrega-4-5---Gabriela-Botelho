@@ -14,13 +14,12 @@ export const Body = styled.div`
 
     display: flex;
     width: 100%;
-    height: 80%;
+    height: 75vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #F5DEB3;
-
-        
+        //Customizar foto de funto da home:
         img{
             width:100vw;
             height: 80vh;

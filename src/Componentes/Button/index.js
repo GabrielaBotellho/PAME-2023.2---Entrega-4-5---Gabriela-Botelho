@@ -1,6 +1,8 @@
+//Importação das bibliotecas usadas:
 import React from 'react'
-import { ButtonDiv } from './style'
 
+//Importação das funções utilizadas:
+import { ButtonDiv } from './style'
 
 //Botton foi criado como componente pois estará presente em todas as páginas
 function Button({text}) {
@@ -8,12 +10,9 @@ function Button({text}) {
  //com diferentes textos dentro 
   return (
     <ButtonDiv>
-        
-          <span>{text}</span>
-    
+          <span>{text}</span> 
     </ButtonDiv>
   )
 }
-
 export default Button
 

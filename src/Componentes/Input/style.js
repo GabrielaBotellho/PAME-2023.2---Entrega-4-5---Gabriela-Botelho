@@ -1,5 +1,7 @@
+//Importação das bibliotecas usadas:
 import styled from "styled-components";
 
+//Customizando a div das caixas de perguntas para o login:
 export const InputDiv = styled.input`
         width: 26vw;
         height: 6vh;
@@ -7,10 +9,4 @@ export const InputDiv = styled.input`
         border-radius: 10px;
         margin-top: 25px;
         font-size: 20px;
-
-        
-        
-
-        
-
 `

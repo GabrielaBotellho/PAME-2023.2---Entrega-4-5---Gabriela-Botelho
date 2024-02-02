@@ -17,6 +17,7 @@ function Rotas() {
             <Route path='/Estoque' element= {<Estoque></Estoque>}></Route>
             <Route path='/Pedidos' element= {<Pedidos></Pedidos>}></Route>
             
+            
         </Routes>
     </Router>
   )

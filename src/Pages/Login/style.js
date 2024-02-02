@@ -10,7 +10,6 @@ export const Pages = styled.div`
     min-height: 550px;
 
 `
-
 //Customizar meio do site:
 export const Body = styled.div`
 
@@ -22,8 +21,6 @@ export const Body = styled.div`
     flex-direction: column;
     background-color: #F5DEB3;
     
-
-
 `
 //customizar caixa de login:   
 export const Container = styled.div`
@@ -35,25 +32,22 @@ export const Container = styled.div`
     gap: 3px;
     min-height: 290px;
     
-
     //customizar o login
     h1{
         color: #8B4513;
+        transform: translateX(+30%);
     }
-
 `
 export const LoginButton = styled.button `
     width: 15vw;
     height: 8vh;
     min-height: 7vh;
-
     margin-top: 30px;
     cursor: pointer;
     font-size: 18px;
-    font-color: #8B4513;
+    color: #F5DEB3;
     border-radius: 10px;
-    background-color: #F5DEB3;
-    
+    background-color: #8B4513;    
 `
 
 

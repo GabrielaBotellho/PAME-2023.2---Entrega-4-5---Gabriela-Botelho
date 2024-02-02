@@ -1,6 +1,7 @@
+//Importação das bibliotecas usadas:
 import styled from "styled-components";
 
-//div principal dos botoes
+// Customizando a div principal dos botoes:
 export const ButtonDiv = styled.button`
 
     display: flex;
@@ -17,12 +18,13 @@ export const ButtonDiv = styled.button`
     margin-right:20px;
     min-width: 75px;
     min-height: 25px; 
+    
 
-     
-span{
+    //Customizando os botões da header:
+    span{
     color: #F5DEB3;
 
-}
+    }
 
 //definindo o que acontece quando encosta no botao
 &:hover{

@@ -1,9 +1,10 @@
+//Importação das bibliotecas usadas:
 import React from 'react'
+
+//Importação das funções utilizadas:
 import { HeaderDiv, StyledLink } from './style'
 import Button from '../Button'
-
 import Logo from '../../Imagens/logo.jpg'
-
 
 //Header foi criada como componente pois estará presente em todas as páginas
 function Header() {
@@ -13,6 +14,10 @@ function Header() {
             <h1> Pudins do Jaime 
               <img id ='Logo' src={Logo} alt=''></img>
             </h1>
+
+            <StyledLink to = '/' >
+              <Button text='Home' ></Button>
+            </StyledLink>
 
             <StyledLink to = '/Login'>
               <Button text='Login' ></Button>
@@ -25,15 +30,8 @@ function Header() {
             <StyledLink to = '/Pedidos' >
               <Button text='Pedidos' ></Button>
             </StyledLink>
-
-            
-            
-
-            
-            
-            
+      
         </HeaderDiv>
-
 
     </div>
   )

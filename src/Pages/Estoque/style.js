@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-
-
-
-
-
 //Customizar parte superior do site:
 export const Pages = styled.div`
     display: flex;
@@ -12,13 +7,12 @@ export const Pages = styled.div`
     height: 100vh;
     flex-direction: column;
     background-color: #F5DEB3;
-
 `
 
 export const BodyEstoque = styled.div`
     display: flex;
     width: 100%;
-    height: 80%;
+    height: 75vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -27,10 +21,9 @@ export const BodyEstoque = styled.div`
 export const ContainerEstoque = styled.div`
     display: flex;
     width: 45%;
-    height: 80%;
+    height: 75vh;
     align-items: center;
     flex-direction: column;
-    
     min-height: 290px;
     min-width: 470px;
     
@@ -38,11 +31,8 @@ export const ContainerEstoque = styled.div`
     .Produto{
         font-size: 20px;
         color: #8B4513;
-
-        }
+    }
     
-    
-
     //customizar o termo 'quantidade em estoque'
     h1{
         color: #8B4513;
